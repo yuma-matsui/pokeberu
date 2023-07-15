@@ -3,4 +3,4 @@
 require_relative 'lib/pokeberu'
 
 inputs = ARGV[0]
-print Pokeberu.get_message(inputs)
+print Pokeberu.generate_message_from(inputs)
